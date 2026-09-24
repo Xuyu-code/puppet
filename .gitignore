@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 运行时数据（用户上传、生成结果、SQLite 历史库）——绝不入库
+webapp/data/
+webapp/inference/
+
+# 本地模型与权重——不随平台代码发布
+models/
+weights/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# 前端依赖
+node_modules/
+
+# 本地环境变量与备份
+.env
+*.bak
+.venv/
+sensitive_scan*.txt
